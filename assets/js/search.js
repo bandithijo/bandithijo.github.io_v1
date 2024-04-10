@@ -166,7 +166,7 @@
           return 0;
         },
         noResultsText: "<b>Tidak ditemukan...</b>",
-        limit: 10,
+        limit: 50,
         fuzzy: !1,
         debounceTime: null,
         exclude: [],

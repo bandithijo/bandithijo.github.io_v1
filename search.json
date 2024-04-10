@@ -6,7 +6,7 @@
       {
         "title"       : "{{ post.title | escape }}",
         "description" : "{{ post.description | escape }}",
-        "url"         : "{{ site.url }}{{ post.url }}",
+        "url"         : "{{ post.url }}",
         "category"    : "{{ post.category }}",
         "date"        : "{{ post.date | date: '%Y.%m.%d' }}"
       } {% unless forloop.last %},{% endunless %}
