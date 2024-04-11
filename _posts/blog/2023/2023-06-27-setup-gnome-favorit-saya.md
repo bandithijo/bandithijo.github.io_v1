@@ -33,7 +33,7 @@ sudo pacman -S dconf dconf-editor
 
 ## GDM (GNOME Display Manager (Login Manager))
 
-### 1. GDM: Login Screen Logo (Bottom Logo)
+### GDM: Login Screen Logo (Bottom Logo)
 
 GDM di Arch Linux, tidak langsung menampilkan logo distribusi di bagian bawah dari GDM. Kita perlu melakukan setup manual.
 
@@ -67,7 +67,7 @@ logo='/usr/share/pixmaps/archlinux-logo-text-dark.svg'
 <p markdown=1>`/usr/share/pixmaps/archlinux-logo-text-dark.svg` sudah secara default disediakan oleh Arch Linux, tinggal digunakan saja.</p>
 {% endbox_info %}
 
-### 2. GDM: Cursor Theme & Size
+### GDM: Cursor Theme & Size
 
 Untuk mengganti cursor theme dan size pada GDM.
 
@@ -91,6 +91,14 @@ Pada variable `cursor-theme=`, isi dengan cursor theme yang kalian inginkan. Ala
 Pada variable `cursor-size=`, isi dengan size yang tersedia dari cursor theme, umumnya antara: 16, 24, 36, 48. Saya menggunakan 48, karena saya menggunakan layar FHD (1920x1080).
 
 ## Gnome Desktop
+
+### Disable Super+Num function on Dash
+
+For disable Super+Number function on Dash,
+
+{% shell_user %}
+for i in $(seq 1 9); do gsettings set org.gnome.shell.keybindings switch-to-application-${i} '[]'; done
+{% endshell_user %}
 
 ### Setup cursor size on GNOME for Gtk apps
 
