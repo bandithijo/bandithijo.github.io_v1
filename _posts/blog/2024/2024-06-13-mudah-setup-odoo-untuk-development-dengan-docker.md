@@ -12,7 +12,7 @@ tags: ['Tips', 'Docker', 'Odoo']
 pin:
 hot:
 contributors: []
-description: "Catatan kali ini saya mendemonstrasikan proses pemasangan Odoo dengan Docker untuk proses development. Docker dipilih karena proses pemasangan Odoo menjadi lebih praktis."
+description: "Catatan kali ini saya mendemonstrasikan proses pemasangan Odoo dengan Docker untuk proses development. Docker dipilih karena membuat proses pemasangan Odoo menjadi lebih praktis."
 ---
 
 # Pendahuluan
