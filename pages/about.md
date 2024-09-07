@@ -82,45 +82,44 @@ Berikut ini adalah spesifikasi mesin maupun aplikasi yang pernah atau hingga saa
 
 # Aplikasi favorit yang digunakan di Linux?
 
-|------------------------|---------------------------------------|
-| <center>Data</center>  | <center>Keterangan</center>           |
-| :---                   | :---                                  |
-|------------------------|---------------------------------------|
-| Static Site Generator  | **Jekyll**                            |
-| Format Text            | **markdown** & **asciidoc**           |
-| Sistem Operasi         | **Linux**                             |
-| Distribusi             | **Arch Linux**                        |
-| Desktop Env.           | -                                     |
-| Window Manager         | **dwm**                               |
-| Terminal Emulator      | **st**                                |
-| Shell                  | **bash**                              |
-| Application Launcher   | **dmenu** & **rofi**                  |
-| Statusbar              | **slstatus**                          |
-| Text Editor            | **neovim**                            |
-| Raster Image Editor    | **gimp** & **gthumb**                 |
-| Vector Image Editor    | **inkscape**                          |
-| Image Preview          | **nsxiv**                             |
-| Office                 | **libreoffice**                       |
-| Get Things Done        | **taskell** & **notion**              |
-| ScreenShoter           | **scrot** & **flameshot**             |
-| PDF Reader             | **zathura** & **evince**              |
-| Video Editor           | **kdenlive** & **olive** & **LWKS**   |
-| Screen Recorder        | **ffmpeg** & **SimpleScreenRecorder** |
-| Webcam                 | **ffplay** & **mpv**                  |
-| Video Player           | **mpv**                               |
-| Audio Player           | **namp**                              |
-| Browser                | **qutebrowser** & **firefox**         |
-| File Manager           | **ranger**                            |
-| Email Client           | **neomutt**                           |
-| IRC Client             | **weechat**                           |
-| RSS Feed Reader        | **newsboat**                          |
-| Torrent Client         | **tremc**                             |
-| RDP Client             | **xfreerdp**                          |
-| VNC Server             | **x11vnc**                            |
-| Ebook Library          | **calibre**                           |
-| Smartphone Mirroring   | **scrcpy**                            |
-| Git Control Management | **lazygit**                           |
-|------------------------|---------------------------------------|
+|------------------------|---------------------------------------------------|
+| <center>Data</center>  | <center>Keterangan</center>                       |
+| :---                   | :---                                              |
+|------------------------|---------------------------------------------------|
+| Static Site Generator  | **Jekyll**                                        |
+| Sistem Operasi         | **Linux**                                         |
+| Distribusi             | **Arch Linux**                                    |
+| Desktop Env.           | -                                                 |
+| Window Manager         | **dwm**                                           |
+| Terminal Emulator      | **st**                                            |
+| Shell                  | **bash**                                          |
+| Application Launcher   | **dmenu** & **rofi**                              |
+| Format Text            | **markdown** & **asciidoc**                       |
+| Text Editor            | **neovim**                                        |
+| Raster Image Editor    | **gimp** & **gthumb**                             |
+| Vector Image Editor    | **inkscape**                                      |
+| Image Preview          | **nsxiv**                                         |
+| Office                 | **libreoffice**                                   |
+| Get Things Done        | **notion**                                        |
+| ScreenShoter           | **scrot** & **flameshot**                         |
+| PDF Reader             | **zathura** & **evince**                          |
+| Video Editor           | **kdenlive** & **olive** & **LWKS**               |
+| Screen Recorder        | **ffmpeg** & **SimpleScreenRecorder**             |
+| Webcam                 | **ffplay** & **mpv**                              |
+| Video Player           | **mpv**                                           |
+| Audio Player           | **namp**                                          |
+| Browser                | **qutebrowser** & **firefox** & **google chrome** |
+| File Manager           | **ranger**                                        |
+| Email Client           | **neomutt**                                       |
+| IRC Client             | **weechat**                                       |
+| RSS Feed Reader        | **newsboat**                                      |
+| Torrent Client         | **tremc**                                         |
+| RDP Client             | **xfreerdp**                                      |
+| VNC Server             | **x11vnc**                                        |
+| Ebook Library          | **calibre**                                       |
+| Smartphone Mirroring   | **scrcpy**                                        |
+| Git Control Management | **lazygit** & **vim-fugitive**                    |
+|------------------------|---------------------------------------------------|
 
 Seperti yang teman-teman lihat di atas, saya banyak menggunakan *free and open source software*. Kalau teman-teman sudah memiliki penghasilan sendiri, jangan lupa untuk berdonasi terhadap project-project *free and open source software* yang teman-teman pergunakan.
 
