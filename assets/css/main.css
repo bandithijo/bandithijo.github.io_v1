@@ -899,7 +899,7 @@ kbd {
   border-width: 0 1px 0 1px;
   border-style: solid;
   /* border-color: var(--GREY-03); */
-  padding-bottom: 30px;
+  /* padding-bottom: 30px; */
   /* untuk memunculkan properties di atas */
   overflow: hidden;
 }
@@ -1143,7 +1143,8 @@ aside.sidebar {
   /* float: right; */
   width: 100%;
   float: none;
-  margin-right: 20px;
+  /* margin-right: 20px; */
+  padding-bottom: 20px;
 }
 
 aside p.sidebar-isi {
