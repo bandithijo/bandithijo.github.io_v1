@@ -110,7 +110,7 @@ Berikut ini adalah spesifikasi mesin maupun aplikasi yang pernah atau hingga saa
 | Audio Player           | **namp**                                          |
 | Browser                | **qutebrowser** & **firefox** & **google chrome** |
 | File Manager           | **ranger**                                        |
-| Email Client           | **neomutt**                                       |
+| Email Client           | **neomutt** & **thunderbird**                     |
 | IRC Client             | **weechat**                                       |
 | RSS Feed Reader        | **newsboat**                                      |
 | Torrent Client         | **tremc**                                         |
@@ -119,6 +119,9 @@ Berikut ini adalah spesifikasi mesin maupun aplikasi yang pernah atau hingga saa
 | Ebook Library          | **calibre**                                       |
 | Smartphone Mirroring   | **scrcpy**                                        |
 | Git Control Management | **lazygit** & **vim-fugitive**                    |
+| Bluetooth Utility      | **bluetuith**                                     |
+| Audio Utility          | **ncpamixer** & **pulsemixer** & **pavucontrol**  |
+| Network Utility        | **networkmanager_dmenu**                          |
 |------------------------|---------------------------------------------------|
 
 Seperti yang teman-teman lihat di atas, saya banyak menggunakan *free and open source software*. Kalau teman-teman sudah memiliki penghasilan sendiri, jangan lupa untuk berdonasi terhadap project-project *free and open source software* yang teman-teman pergunakan.
