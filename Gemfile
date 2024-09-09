@@ -17,7 +17,7 @@ gem 'liquid-c',                                '~> 4.0'
 
 gem 'bundler',                                 '~> 2.5', '>= 2.5.18'
 
-gem 'posix-spawn',                             github: 'https://github.com/rtomayko/posix-spawn/pull/93'
+gem 'posix-spawn',                             git: 'https://github.com/casperisfine/posix-spawn.git', branch: 'fix-clang-errors'
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do

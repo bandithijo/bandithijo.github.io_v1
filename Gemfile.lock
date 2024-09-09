@@ -1,7 +1,7 @@
 GIT
-  remote: https://github.com/rtomayko/posix-spawn.git
+  remote: https://github.com/casperisfine/posix-spawn.git
   revision: 0fce38ed5458b638eda5f3bb711903424a4366db
-  ref: refs/pull/93/head
+  branch: fix-clang-errors
   specs:
     posix-spawn (0.3.15)
 
