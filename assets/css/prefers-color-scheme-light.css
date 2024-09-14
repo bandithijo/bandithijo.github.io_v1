@@ -1,0 +1,241 @@
+@import url(/assets/css/root.css);
+
+@media (prefers-color-scheme: light) {
+  body{
+    background: var(--LGT-BG-OUTTER-01);
+    color: var(--BLACK);
+  }
+
+  #header {
+    background: var(--LGT-BG-OUTTER-02);
+    border-bottom-color: var(--LGT-BG-OUTTER-BORDER-BTM);
+  }
+
+  .container {
+    background: var(--LGT-CONTAINER);
+  }
+
+  #header .container {
+    background: var(--LGT-CONTAINER);
+    border-color: var(--LGT-CONTAINER);
+  }
+
+  #main .container {
+    border-color: var(--LGT-CONTAINER);
+  }
+
+  #main .container-edge-border {
+    border-color: var(--LGT-CONTAINER-BORDER);
+  }
+
+  article.homepage .notif-home {
+    border-color: var(--BLACK);
+  }
+
+  article.homepage .notif-home p,
+  article.homepage .notif-home a {
+    color: var(--BLACK);
+  }
+
+  #footer .container {
+    background: var(--LGT-CONTAINER);
+    border-color: var(--LGT-CONTAINER);
+  }
+
+  #footer .container-inner {
+    background: var(--LGT-FOOTER);
+  }
+
+  .footer-line {
+    border-color: var(--GREY-06);
+  }
+
+  .footer-body {
+    color: var(--BLACK)
+  }
+
+  .tech-i-used-desktop,
+  .tech-i-used-mobile {
+    color: var(--GREY-08);
+  }
+
+  a, a:visited {
+    color: var(--GREEN-01);
+  }
+
+  input#search-input,
+  input#search-input:focus {
+    background: var(--LGT-CONTAINER);
+    border-color: var(--LGT-CONTAINER);
+    color: var(--BLACK);
+  }
+
+  aside .sidebar-body {
+    background: var(--SIDEBAR-BODY);
+    border-color: var(--BLACK);
+  }
+
+  aside .sidebar-body-rss {
+    background: var(--YELLOW-01);
+    border-color: var(--BLACK);
+  }
+
+  aside.sidebar h1 {
+    color: var(--BLACK);
+    border-bottom-color: var(--GREY-05);
+  }
+
+  aside.sidebar h1 a, aside.sidebar h1 a:hover {
+    color: var(--BLACK);
+  }
+
+  .post-title {
+    color: var(--BLACK);
+    border-bottom-color: var(--BLACK);
+  }
+
+  .post-title a {
+    color: var(--BLACK);
+  }
+
+  .post-title a:hover {
+    color: var(--GREEN-01);
+  }
+
+  p.post-title-index {
+    color: var(--BLACK);
+    border-bottom-color: var(--GREY-03);
+  }
+
+  p.post-title-index a {
+    color: var(--BLACK);
+  }
+
+  p.post-title-index a:hover {
+    color: var(--GREEN-04);
+  }
+
+  .collapsible-title:before {
+    color: var(--BLACK);
+  }
+
+  .markdown-body {
+    color: var(--BLACK);
+  }
+
+  .markdown-body li {
+    color: var(--BLACK);
+  }
+
+  .markdown-body h1, .markdown-body h2, .markdown-body h3, .markdown-body h4, .markdown-body h5, .markdown-body h6 {
+    color: var(--BLACK);
+  }
+
+  .markdown-body h1 {
+    border-bottom-color: var(--BLACK);
+  }
+
+  .markdown-body blockquote a, .markdown-body blockquote a:hover {
+    color: var(--GREEN-01);
+  }
+
+  .markdown-body table th {
+    background: var(--LGT-TABLE-TH);
+    border-color: var(--BLACK) !important;
+  }
+
+  .markdown-body table tr {
+    background-color: var(--WHITE);
+  }
+
+  .markdown-body table tr:nth-child(2n) {
+    background-color: var(--LGT-TABLE-TR-2N);
+  }
+
+  .markdown-body table td {
+    border-color: var(--BLACK) !important;
+  }
+
+  .markdown-body figure.highlight table td {
+    border-color: var(--BACKGROUND-CODE) !important;
+  }
+
+  .post-details {
+    background: var(--BLACK);
+    color: var(--WHITE);
+    border-color: var(--BLACK);
+  }
+
+  a.headings-permalink,
+  a:hover.headings-permalink {
+    color: var(--BLACK);
+  }
+
+  img.icon {
+    filter: brightness(0) saturate(100%) invert(0%) sepia(100%) saturate(7461%) hue-rotate(20deg) brightness(94%) contrast(110%);
+  }
+
+  .mono {
+    color: var(--BLACK);
+  }
+
+  .notag {
+    background: var(--WHITE);
+    color: var(--WHITE);
+  }
+
+  small {
+    color: var(--BLACK);
+  }
+
+  .post-body li {
+    color: var(--BLACK);
+  }
+
+  aside.sidebar ul {
+    color: var(--GREEN-04);
+  }
+
+  .wiptag_title {
+    background: var(--BLACK);
+    color: var(--WHITE);
+  }
+
+  .wiptag {
+    background: var(--BLACK);
+    color: var(--WHITE);
+  }
+
+  .keyboard-mapping {
+    border-color: var(--BLACK);
+  }
+
+  .whiteboard {
+    background-color: var(--WHITE) !important;
+    border-color: var(--WHITE) !important;
+    color: var(--BLACK) !important;
+  }
+
+  .whiteboard border {
+    border-color: var(--BLACK) !important;
+  }
+
+  .url {
+    background-color: var(--WHITE) !important;
+    border-color: var(--BLACK) !important;
+    color: var(--BLACK) !important;
+  }
+
+  pre.url b {
+    color: var(--BLACK) !important;
+  }
+
+  .blockquote-red table, .blockquote-blue table, .blockquote-yellow table {
+    color: var(--BLACK);
+  }
+
+  .blockquote-red a, .blockquote-blue a, .blockquote-yellow a,
+  .blockquote-red a:hover, .blockquote-blue a:hover, .blockquote-yellow a:hover {
+    color: var(--GREEN-01);
+  }
+}
