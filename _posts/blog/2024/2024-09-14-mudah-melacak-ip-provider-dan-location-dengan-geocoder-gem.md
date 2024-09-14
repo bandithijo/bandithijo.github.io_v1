@@ -19,8 +19,7 @@ description: "Sebelum menggunakan Geocoder Gem, saya menggunakan infosniper.net 
 
 {{ page.description }}
 
-![gambar_1]({{ site.lazyload.logo_blank }}){:data-echo="https://i.postimg.cc/N0H4RbVD/gambar-01.png" onerror="imgError(this);"}{:class="myImg"}
-<p class="img-caption">Gambar 1 - Tampilan Website infosniper.net</p>
+{% image https://i.postimg.cc/N0H4RbVD/gambar-01.png | 1 | Tampilan Website infosniper.net %}
 
 # Problem
 
