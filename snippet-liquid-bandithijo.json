@@ -1,0 +1,64 @@
+{
+  "bandithijo:shell_root": {
+    "prefix": ["bandithijo:shell_root"],
+    "body": [
+      "{% shell_root %}",
+      "$1",
+      "{% endshell_root %}"
+    ]
+  },
+  "bandithijo:shell_user": {
+    "prefix": ["bandithijo:shell_user"],
+    "body": [
+      "{% shell_user %}",
+      "$1",
+      "{% endshell_user %}"
+    ]
+  },
+  "bandithijo:shell_term": {
+    "prefix": ["bandithijo:shell_term"],
+    "body": [
+      "{% shell_term ${1:prompt_symbol} | ${2:#000000} %}",
+      "$3",
+      "{% endshell_term %}"
+    ]
+  },
+  "bandithijo:shell_cmd": {
+    "prefix": ["bandithijo:shell_cmd"],
+    "body": [
+      "{% shell_cmd ${1:prompt_symbol} | ${2:#000000} %}",
+      "$3",
+      "{% endshecmderm %}"
+    ]
+  },
+  "bandithijo:image": {
+    "prefix": ["bandithijo:image"],
+    "body": [
+      "{% image ${1:url} | ${2:num} | ${3:caption} %}"
+    ]
+  },
+  "bandithijo:box_perhatian": {
+    "prefix": ["bandithijo:box_perhatian"],
+    "body": [
+      "{% box_perhatian %}",
+      "$1",
+      "{% endbox_perhatian %}"
+    ]
+  },
+  "bandithijo:box_info": {
+    "prefix": ["bandithijo:box_info"],
+    "body": [
+      "{% box_info %}",
+      "$1",
+      "{% endbox_info %}"
+    ]
+  },
+  "bandithijo:box_pertanyaan": {
+    "prefix": ["bandithijo:box_pertanyaan"],
+    "body": [
+      "{% box_pertanyaan %}",
+      "$1",
+      "{% endbox_pertanyaan %}"
+    ]
+  }
+}

@@ -184,6 +184,10 @@ Gambar yang ada di dalam post, dapat diklik untuk memperbesar. Lalu, klik di are
 
 {% image https://i.postimg.cc/C1b8SQzs/gambar-02.png | 2 | Contoh gambar kecil %}
 
+## Gambar Tanpa Caption
+
+{% image https://i.postimg.cc/C1b8SQzs/gambar-02.png %}
+
 # Bullets & Numbering
 ## Bullets
 * Unorder list 1
@@ -222,9 +226,9 @@ Untuk instruksi berupa tekan tombol tertentu pada _keyboard_, akan ditampillkan 
 
 # Fitur Tambahan
 
-{% image https://i.postimg.cc/sXGmRr1Z/gambar-04.png | 4 %}
+{% image https://i.postimg.cc/sXGmRr1Z/gambar-04.png %}
 
 Untuk memenuhi kebutuhan area baca yang lebih lebar, teman-teman dapat menggunakan tombol seperti ini
 <span style="background:#008352;color:#FFF;font-weight:bold;border-radius:3px;padding:1px 2px;">&#9776;</span> yang tepat berada di samping kanan dari judul artikel.
 
-{% image https://i.postimg.cc/Hsyq9q2n/gambar-05.png | 5 %}
+{% image https://i.postimg.cc/Hsyq9q2n/gambar-05.png %}
