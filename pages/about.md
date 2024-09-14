@@ -54,31 +54,33 @@ Ceritanya dapat teman-teman baca [**Migrasi BLog 2.0**]({{ site.url }}/blog/migr
 {% assign date0 = site.time | date: '%Y' | integer %}
 {% assign date1 = 2016 %}
 {% assign date2 = date0 | minus: date1 %}
-
 |-----------------------------------------------------|----------------------------------|-------------------------|
 | <center>Sistem Operasi</center>                     | <center>Tahun Digunakan</center> | <center>Durasi</center> |
 | :---                                                | :---                             | :---                    |
 |-----------------------------------------------------|----------------------------------|-------------------------|
 | **Microsoft Windows ME, XP, Vista**                 | 2002 - 2008                      | 6 tahun                 |
-| **OS X 10.5, 10.6, 10.7, 10.8, 10.9, 10.10, 10.11** | 2009 - 2015                      | 6 tahun                 |
-| **Linux**                                           | 2016 - Sekarang                  | {{ date2 }} tahun       |
+| **OS X 10.5, 10.6, 10.7, 10.8, 10.9, 10.10, 10.11** | 2009 - 2015                      | 7 tahun                 |
+| **Linux**                                           | 2016 - Sekarang                  | ± {{ date2 }} tahun     |
 |-----------------------------------------------------|----------------------------------|-------------------------|
 
 
 # Mesin ketik yang digunakan?
 
+{% assign date3 = 2022 %}
+{% assign date4 = date0 | minus: date3 %}
+
 Berikut ini adalah spesifikasi mesin maupun aplikasi yang pernah atau hingga saat ini saya gunakan untuk berkomputasi ataupun untuk mengukir tulisan di blog ini.
 
-|---------------------------|---------------------------------|----------------------------------|
-| <center>Mesin</center>    | <center>Tahun Produksi</center> | <center>Tahun Digunakan</center> |
-| :---                      | :---                            | :---                             |
-|---------------------------|---------------------------------|----------------------------------|
-| **Apple Macbook 4.1**     | 2008                            | 2009 - 2011                      |
-| **Apple Macbook Pro 8.1** | 2011                            | 2012 - 2016                      |
-| **Lenovo ThinkPad X260**  | 2016                            | 2017 - 2018                      |
-| **Lenovo ThinkPad X61**   | 2007                            | 2019 - Nov 2021                  |
-| **Lenovo ThinkPad X260**  | 2016                            | Dec 2021 - Sekarang              |
-|---------------------------|---------------------------------|----------------------------------|
+|---------------------------|---------------------------------|----------------------------------|-------------------------|
+| <center>Mesin</center>    | <center>Tahun Produksi</center> | <center>Tahun Digunakan</center> | <center>Durasi</center> |
+| :---                      | :---                            | :---                             | :---                    |
+|---------------------------|---------------------------------|----------------------------------|-------------------------|
+| **Apple Macbook 4.1**     | 2008                            | 2009 - 2011                      | 3 tahun                 |
+| **Apple Macbook Pro 8.1** | 2011                            | 2012 - 2016                      | 5 tahun                 |
+| **Lenovo ThinkPad X260**  | 2016                            | 2017 - 2018                      | 2 tahun                 |
+| **Lenovo ThinkPad X61**   | 2007                            | 2019 - Nov 2021                  | 3 tahun                 |
+| **Lenovo ThinkPad X260**  | 2016                            | Dec 2021 - Sekarang              | ± {{ date4 }} tahun     |
+|---------------------------|---------------------------------|----------------------------------|-------------------------|
 
 # Aplikasi favorit yang digunakan di Linux?
 
