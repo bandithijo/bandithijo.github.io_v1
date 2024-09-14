@@ -52,36 +52,37 @@ gem install geocoder
 ## Cara penggunaan
 
 {% shell_user %}
-geocode 103.127.133.203
+geocode 18.139.194.139
 {% endshell_user %}
 
 ```
-Latitude:         -6.2146
-Longitude:        106.8451
-Full address:     Jakarta , ID
-City:             Jakarta
-State/province:   Jakarta
-Postal code:
-Country:          ID
-Map:              https://www.openstreetmap.org/?lat=-6.2146&lon=106.8451&zoom=15&layers=M
+Latitude:         1.2897
+Longitude:        103.8501
+Full address:     Singapore 018989, SG
+City:             Singapore
+State/province:   Singapore
+Postal code:      018989
+Country:          SG
+Map:              https://www.openstreetmap.org/?lat=1.2897&lon=103.8501&zoom=15&layers=M
 ```
 
 Atau gunakan option `--json` atau `-j` untuk output dalam bentuk JSON.
 
 {% shell_user %}
-geocode 103.127.133.203 --json
+geocode 18.139.194.139 --json
 {% endshell_user %}
 
 ```
 {
-  "ip": "103.127.133.203",
-  "hostname": "ip-203-133-127-103.wjv-1.biznetg.io",
-  "city": "Jakarta",
-  "region": "Jakarta",
-  "country": "ID",
-  "loc": "-6.2146,106.8451",
-  "org": "AS133800 PT Biznet Gio Nusantara",
-  "timezone": "Asia/Jakarta",
+  "ip": "18.139.194.139",
+  "hostname": "ec2-18-139-194-139.ap-southeast-1.compute.amazonaws.com",
+  "city": "Singapore",
+  "region": "Singapore",
+  "country": "SG",
+  "loc": "1.2897,103.8501",
+  "org": "AS16509 Amazon.com, Inc.",
+  "postal": "018989",
+  "timezone": "Asia/Singapore",
   "readme": "https://ipinfo.io/missingauth"
 }
 ```
