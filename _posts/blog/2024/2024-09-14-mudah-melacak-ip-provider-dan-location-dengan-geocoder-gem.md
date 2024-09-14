@@ -36,8 +36,6 @@ Gem ini menambahkan command `geocoder` ke dalam command shell kita. Kita dapat m
 
 {% box_perhatian %}
 Geocoder Gem ini secara default menggunakan OpenStreetMap Service.
-
-Apabila kita tidak menggunakan *credential* milik kita sendiri, besar kemungkinan akan terdapat masalah-masalah seperti: 1.) Tidak mendapatkan hasil yang sesuai.
 {% endbox_perhatian %}
 
 ## Prerequisite
