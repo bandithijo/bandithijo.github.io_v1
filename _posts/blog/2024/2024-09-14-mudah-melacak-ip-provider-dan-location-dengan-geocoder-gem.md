@@ -1,0 +1,108 @@
+---
+layout: 'post'
+title: "Mudah Melacak IP Provider dan Location dengan Geocoder Gem"
+date: 2024-09-14 08:34
+permalink: '/blog/:title'
+author: 'BanditHijo'
+license: true
+comments: true
+toc: true
+category: 'blog'
+tags: ['Tips', 'Ruby']
+pin:
+hot:
+contributors: []
+description: "Sebelum menggunakan Geocoder Gem, saya menggunakan infosniper.net untuk mengetahui IP provider dan location. Repotnya, saya harus membuka browser. Dengan Geocoder Gem, saya hanya perlu menggunakan Terminal. Praktis."
+---
+
+# Pendahuluan
+
+{{ page.description }}
+
+![gambar_1]({{ site.lazyload.logo_blank }}){:data-echo="https://i.postimg.cc/N0H4RbVD/gambar-01.png" onerror="imgError(this);"}{:class="myImg"}
+<p class="img-caption">Gambar 1 - Tampilan Website infosniper.net</p>
+
+# Problem
+
+Mengakses web service infosniper.net hanya untuk mengetahui location dan provider dari sebuah IP address, sangat tidak praktis.
+
+# Solusi
+
+Praktis akan sangat berbeda-beda bagi setiap orang, tapi bagi saya, praktis artinya saya dapat menyelesaikan tujuan saya hanya dari Terminal. Hanya dengan mengetikkan baris command ke Terminal, kemudian hasil yang saya inginkan sudah tercapai.
+
+Saya membutuhkan gem (library pada Ruby) yang bernama [Geocoder](https://github.com/alexreisner/geocoder).
+
+Gem ini menambahkan command `geocoder` ke dalam command shell kita. Kita dapat mencari *street address*, IP Address, *postal code*, *coordinates (latitude, longitude)*, dan lain-lain.
+
+{% box_perhatian %}
+Geocoder Gem ini secara default menggunakan OpenStreetMap Service.
+
+Apabila kita tidak menggunakan *credential* milik kita sendiri, besar kemungkinan akan terdapat masalah-masalah seperti: 1.) Tidak mendapatkan hasil yang sesuai.
+{% endbox_perhatian %}
+
+## Prerequisite
+
+Sudah harus terinstall Ruby di sistem
+
+## Install Gem
+
+Install gem dengan cara,
+
+{% shell_user %}
+gem install geocoder
+{% endshell_user %}
+
+## Cara penggunaan
+
+{% shell_user %}
+geocode 103.127.133.203
+{% endshell_user %}
+
+```
+Latitude:         -6.2146
+Longitude:        106.8451
+Full address:     Jakarta , ID
+City:             Jakarta
+State/province:   Jakarta
+Postal code:
+Country:          ID
+Map:              https://www.openstreetmap.org/?lat=-6.2146&lon=106.8451&zoom=15&layers=M
+```
+
+Atau gunakan option `--json` atau `-j` untuk output dalam bentuk JSON.
+
+{% shell_user %}
+geocode 103.127.133.203 --json
+{% endshell_user %}
+
+```
+{
+  "ip": "103.127.133.203",
+  "hostname": "ip-203-133-127-103.wjv-1.biznetg.io",
+  "city": "Jakarta",
+  "region": "Jakarta",
+  "country": "ID",
+  "loc": "-6.2146,106.8451",
+  "org": "AS133800 PT Biznet Gio Nusantara",
+  "timezone": "Asia/Jakarta",
+  "readme": "https://ipinfo.io/missingauth"
+}
+```
+
+That's it!
+
+
+# Pesan Penulis
+
+Terima kasih sudah mampir yaa.
+
+
+# Referensi
+
+1. infosniper.net \
+   <https://infosniper.net/> \
+   Diakses tanggal: 2024/09/14
+
+2. alexreisner/geocoder \
+   <https://github.com/alexreisner/geocoder> \
+   Diakses tanggal: 2024/09/14
