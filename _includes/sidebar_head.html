@@ -47,5 +47,7 @@
 {% elsif page.permalink == '/tags/' %}
     {% include _sidebar/sidebar_outdated.html %}
     {% include _sidebar/tags/sidebar_tags.html %}
+{% elsif page.permalink == '/stat/' and page.toc == true %}
+    {% include _sidebar/sidebar_toc_gem.html %}
 {% endif %}
 </aside>
