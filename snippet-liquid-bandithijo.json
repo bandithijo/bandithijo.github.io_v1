@@ -1,4 +1,16 @@
 {
+  "bandithijo:link": {
+    "prefix": ["bandithijo:link"],
+    "body": [
+      "{% link ${1:title} | ${2:url} %}"
+    ]
+  },
+  "bandithijo:image": {
+    "prefix": ["bandithijo:image"],
+    "body": [
+      "{% image ${1:url} | ${2:num} | ${3:caption} %}"
+    ]
+  },
   "bandithijo:shell_root": {
     "prefix": ["bandithijo:shell_root"],
     "body": [
@@ -29,12 +41,6 @@
       "{% shell_cmd ${1:prompt_symbol} | ${2:#000000} %}",
       "$3",
       "{% endshecmderm %}"
-    ]
-  },
-  "bandithijo:image": {
-    "prefix": ["bandithijo:image"],
-    "body": [
-      "{% image ${1:url} | ${2:num} | ${3:caption} %}"
     ]
   },
   "bandithijo:box_perhatian": {
