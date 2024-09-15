@@ -11,6 +11,14 @@
       "{% image ${1:url} | ${2:num} | ${3:caption} %}"
     ]
   },
+  "bandithijo:reference": {
+    "prefix": ["bandithijo:reference"],
+    "body": [
+      "1. ${1:title} \\",
+      "   <${2:link}> \\",
+      "   Diakses tanggal: ${3:2024/09/14}"
+    ]
+  },
   "bandithijo:shell_root": {
     "prefix": ["bandithijo:shell_root"],
     "body": [
