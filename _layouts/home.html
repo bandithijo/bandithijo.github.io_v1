@@ -6,6 +6,11 @@ permalink: :title
 <section id="main">
   <div class="container noselect">
     <div class="container-edge-border">
+
+      {% if site.newsline %}
+        {% include newsline.html %}
+      {% endif %}
+
       <article class="post">
         <div class="post-body">
           {% include search.html %}

@@ -3,16 +3,24 @@
 
 state: low
 news: |
-  Please <a href="https://github.com/rms-support-letter/rms-support-letter.github.io"" target="_blank">support</a> Richard M. Stallman, free software movement activist, founder of <a href="https://www.gnu.org/" target="_blank">GNU project</a> and <a href="https://www.fsf.org/" target="_blank">Free Software Foundation</a>, during ongoing attempt to defame and displace him. Terima kasih (^_^) (bandithijo, 2021/04/05) ●
+  Sejak memasang "dark" theme, saya cenderung menjadi malas menulis. Untuk sementara, dark theme saya disable dulu yaa. Terima kasih (^_^) (bandithijo, 2024/09/15) ●
 
+
+# OLD NEWS
+# Disusun yang terbaru paling atas, yang lama paling bawah.
+# ---
+# state: low
+# news: |
+#   Please <a href="https://github.com/rms-support-letter/rms-support-letter.github.io"" target="_blank">support</a> Richard M. Stallman, free software movement activist, founder of <a href="https://www.gnu.org/" target="_blank">GNU project</a> and <a href="https://www.fsf.org/" target="_blank">Free Software Foundation</a>, during ongoing attempt to defame and displace him. Terima kasih (^_^) (bandithijo, 2021/04/05) ●
 # state: high
 # news: |
 #   Mulai <b>April 2020</b>, bandithijo.com akan menggunakan GitHub subdomain menjadi <a href="https://bandithijo.github.io" style="color:white;"><b>bandithijo.github.io</b></a>. Penggunaan domain .com tidak sejalan dengan cara pandang saya terhadap sebuah blog, dimana blog harus bisa tetap hidup tanpa saya. Terima kasih (^_^) (bandithijo, 2020/03/25) ●
-
-
-# Old News
-# Disusun yang terbaru paling atas, yang lama paling bawah.
-# ---
-# Sehubungan dengan saya sedang mengikuti kelas "<a style="color:white;" href="https://www.dicoding.com/academies/104" target="_blank"><b>Belajar Menjadi AWS Solutions Architect Associate</b></a>" yang diadakan oleh Dicoding, saya memindahkan pengaturan DNS blog ini, yang tadinya dikelola oleh <b>Netlify</b> menjadi dikelola oleh <b>Amazon Route53</b>. Pemindahan ini hanya sementara hingga proses penilaian terhadap Final Submission selesai dilakukan. Terima kasih. (bandithijo, 2019/06/01) ●
-# <b>#PrayForNewZealand</b> (Christchurch) - Inna lillahi wa inna ilaihi raji'un. Semoga Allah menjadikan saudara kita yang wafat menjadi ahli surga, yang terluka diampuni dosa dan dimuliakan dunia akhirat. Serta keluarga yang ditinggalkan diberi kesabaran, kekuatan iman, dan limpahan pahala, serta kelak akan kembali dikumpulkan di surgaNya Allah. Aamiin. (2019/03/18) ●
-# Menimbang dan melihat sudah tidak adanya lalu lintas data yang menuju ke page Groups dan 157, maka kedua halaman ini dengan berat hati harus kami take down untuk tujuan efisiensi. (bandithijo, 2019/10/11) ● Untuk semua artikel yang memberikan tautan ke repositori dotfiles saya di GitHub, saat ini sedang dalam proses perbaikan sehingga tidak dapat diakses. Mohon maaf atas ketidaknyamanan ini. (bandithijo, 2019/03/14) ●
+# state: low
+# news: |
+#   Sehubungan dengan saya sedang mengikuti kelas "<a style="color:white;" href="https://www.dicoding.com/academies/104" target="_blank"><b>Belajar Menjadi AWS Solutions Architect Associate</b></a>" yang diadakan oleh Dicoding, saya memindahkan pengaturan DNS blog ini, yang tadinya dikelola oleh <b>Netlify</b> menjadi dikelola oleh <b>Amazon Route53</b>. Pemindahan ini hanya sementara hingga proses penilaian terhadap Final Submission selesai dilakukan. Terima kasih. (bandithijo, 2019/06/01) ●
+# state: low
+# news: |
+#   <b>#PrayForNewZealand</b> (Christchurch) - Inna lillahi wa inna ilaihi raji'un. Semoga Allah menjadikan saudara kita yang wafat menjadi ahli surga, yang terluka diampuni dosa dan dimuliakan dunia akhirat. Serta keluarga yang ditinggalkan diberi kesabaran, kekuatan iman, dan limpahan pahala, serta kelak akan kembali dikumpulkan di surgaNya Allah. Aamiin. (2019/03/18) ●
+# state: low
+# news: |
+#   Menimbang dan melihat sudah tidak adanya lalu lintas data yang menuju ke page Groups dan 157, maka kedua halaman ini dengan berat hati harus kami take down untuk tujuan efisiensi. (bandithijo, 2019/10/11) ● Untuk semua artikel yang memberikan tautan ke repositori dotfiles saya di GitHub, saat ini sedang dalam proses perbaikan sehingga tidak dapat diakses. Mohon maaf atas ketidaknyamanan ini. (bandithijo, 2019/03/14) ●
