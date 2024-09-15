@@ -2234,7 +2234,7 @@ ul#results-container > li {
 
   .post {
     padding: 20px;
-    padding-top: 0;
+    /* padding-top: 0; */
   }
 }
 
@@ -2287,7 +2287,7 @@ ul#results-container > li {
 
   .post {
     padding: 20px;
-    padding-top: 0;
+    /* padding-top: 0; */
   }
 
   #footer {
