@@ -1995,6 +1995,40 @@ a.disqus_button {
   z-index: 99;
 }
 
+/* Add styles for the scrolling effect */
+#newsline {
+  overflow: hidden;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+}
+
+.scrolling-text {
+  display: inline-block;
+  white-space: nowrap;
+  position: relative;
+}
+
+.scrolling-text p {
+  display: inline-block;
+  margin: 0;
+  padding-right: 0%; /* Add spacing between repetitions */
+  animation: scroll-left 25s linear infinite;
+}
+
+.scrolling-text p::after {
+  content: attr(data-text); /* Dynamically duplicate the content */
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
 /* MODAL ------------------------------------------------------------------- */
 
 .myImg {
