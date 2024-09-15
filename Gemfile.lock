@@ -192,7 +192,6 @@ DEPENDENCIES
   posix-spawn!
   rake (~> 13.2, >= 13.2.1)
   rouge (~> 4.3)
-  webrick (~> 1.8, >= 1.8.1)
 
 BUNDLED WITH
    2.5.18

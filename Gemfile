@@ -11,7 +11,6 @@ source 'https://rubygems.org'
 
 gem 'jekyll',                                  '~> 4.3', '>= 4.3.3'
 gem 'rake',                                    '~> 13.2', '>= 13.2.1'
-gem 'webrick',                                 '~> 1.8', '>= 1.8.1'
 
 gem 'liquid-c',                                '~> 4.0'
 
