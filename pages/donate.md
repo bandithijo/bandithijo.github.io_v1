@@ -5,11 +5,13 @@ permalink: '/donate/'
 toc: true
 ---
 
-Terima kasih kepada teman-teman yang telah mengapresiasi bandithijo.dev dengan berdonasi ke [**saweria/bandithijo**](https://saweria.co/bandithijo){:target="_blank"}.
+<img class="post-body-img" src="{{ site.lazyload.logo_blank_banner }}" data-echo="/assets/img/banner/banner.png" alt="banner">
 
-Semoga sebagian rizqi yang teman-teman berikan, Allah ganti dengan yang lebih baik.
+Terima kasih kepada teman-teman yang telah mengapresiasi tulisan-tulisan di bandithijo.dev dengan berdonasi ke {% link saweria/bandithijo | https://saweria.co/bandithijo %}.
 
-# Donor
+Semoga sebagian rizqi yang teman-teman berikan, Allah lipat gandakan dengan yang lebih baik.
+
+# Honor for Donor
 
 1. **Uddin** (23/08/2019 via. GoPay)
 1. **thebugwal** (06/27/2022 via. Saweria) \
