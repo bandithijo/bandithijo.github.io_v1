@@ -6,7 +6,7 @@
 
 ## 🍱 Requirements
 
-`Ruby 3.3.4` `Jekyll 4.3.3`
+`ruby 3.3.4` `jekyll 4.3.3`
 
 ## 🏃 Menjalankan Blog secara Offline
 
