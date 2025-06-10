@@ -8,10 +8,10 @@
 <meta name="msapplication-navbutton-color" content="#008352">
 <meta name="apple-mobile-web-app-status-bar-style" content="#008352">
 <title>{% if page.title %}{{ page.title | escape }} | {{ site.title }}{% else %}{{ site.title | escape }}{% endif %}</title>
-<link rel="stylesheet" href="/assets/css/main.css">
-<link rel="stylesheet" href="/assets/css/github-markdown-bandit.css">
-<link rel="icon" href="/assets/img/favicon/favicon.png" type="image/png">
-<link rel="manifest" href="/manifest.json">
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/github-markdown-bandit.css' | relative_url }}">
+<link rel="icon" href="{{ '/assets/img/favicon/favicon.png' | relative_url }}" type="image/png">
+<link rel="manifest" href="{{ '/manifest.json' | relative_url }}">
 {% if jekyll.environment == 'production' %}
   {% seo title=false %}
   {% include opengraph.html %}
