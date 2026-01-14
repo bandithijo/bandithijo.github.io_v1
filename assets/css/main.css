@@ -6,28 +6,28 @@ Created : Maret 2018
 --------------------------------------------------------------------------- */
 
 /* FONTS */
-@import url(/assets/fonts/give_you_glory/Give-You-Glory.css);
-@import url(/assets/fonts/fira_code_nerd_font/FiraCodeMediumNerdFont.css);
-@import url(/assets/fonts/fira_code/FiraCode.css);
-@import url(/assets/fonts/fira_sans/FiraSans.css);
-@import url(/assets/fonts/fira_sans_condensed/FiraSansCondensed.css);
+@import "assets/fonts/give_you_glory/Give-You-Glory.css";
+@import "assets/fonts/fira_code_nerd_font/FiraCodeMediumNerdFont.css";
+@import "assets/fonts/fira_code/FiraCode.css";
+@import "assets/fonts/fira_sans/FiraSans.css";
+@import "assets/fonts/fira_sans_condensed/FiraSansCondensed.css";
 
 /* CODE COLORSCHEME */
-@import url(/assets/css/codedark.css);
+@import "/assets/css/codedark.css";
 
 /* PRELOAD */
-@import url(/assets/css/preload.css);
+@import "/assets/css/preload.css";
 
 /* ADD TO HOMESCREEN */
-@import url(/assets/css/add-to-homescreen.css);
+@import "/assets/css/add-to-homescreen.css";
 
 /* ROOT THEME */
-@import url(/assets/css/root.css);
+@import "/assets/css/root.css";
 
 /* COLOR THEME */
-/* @import url(/assets/css/prefers-color-scheme-light.css); */
-/* @import url(/assets/css/prefers-color-scheme-dark.css); */
-@import url(/assets/css/prefers-color-scheme.css);
+/* @import "/assets/css/prefers-color-scheme-light.css"; */
+/* @import "/assets/css/prefers-color-scheme-dark.css"; */
+@import "/assets/css/prefers-color-scheme.css";
 
 body {
   /* background: var(--BODY-OUTSIDE-YOUNG); */
