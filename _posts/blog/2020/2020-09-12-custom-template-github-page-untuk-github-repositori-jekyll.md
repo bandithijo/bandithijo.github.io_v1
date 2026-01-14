@@ -187,7 +187,7 @@ Kemudian isikan file **default.html** seperti di bawah ini. Sesuaikan dengan keb
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#ffffff">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="stylesheet" href="{{ "{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url " }}}}">
+    <link rel="stylesheet" href="{{ "{{ '/assets/css/style.css?v=' | append: site.github.build_revision | absolute_url " }}}}">
     <title>{{ "{{ site.title " }}}}</title>
   </head>
   <body>

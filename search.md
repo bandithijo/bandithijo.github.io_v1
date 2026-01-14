@@ -8,7 +8,7 @@ permalink: '/grep/'
 {% include search.html %}
 
 <!-- Script pointing to search-script.js -->
-<script src="{{ '/assets/js/search.js' | relative_url }}" type="text/javascript"></script>
+<script src="{{ '/assets/js/search.js' | absolute_url }}" type="text/javascript"></script>
 
 <!-- Configuration -->
 <script>
